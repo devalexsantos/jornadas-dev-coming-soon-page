@@ -2,7 +2,7 @@ import { SendHorizonal } from "lucide-react"
 
 function App() {
   return (
-    <main className="min-h-screen bg-[url('/img/bg-mobile.png')] md:bg-[url('/img/bg-desktop.png')] bg-cover bg-top w-full flex justify-end items-center">
+    <main className="h-full min-h-screen md:bg-[url('/img/bg-desktop.png')] bg-cover bg-top w-full flex justify-end items-center">
       <div className="flex h-screen flex-col py-8 px-10 w-full items-end">
         <div className="w-full flex justify-end">
         </div>
