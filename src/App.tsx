@@ -2,7 +2,7 @@ import { SendHorizonal } from "lucide-react"
 
 function App() {
   return (
-    <main className="h-full min-h-screen bg-[url('/img/bg-mobile.png')] md:bg-[url('/img/bg-desktop.png')] bg-cover bg-top w-full flex justify-end items-center">
+    <main className="h-full bg-[url('/img/bg-mobile.png')] md:bg-[url('/img/bg-desktop.png')] bg-cover bg-top w-full flex justify-end items-center">
       <div className="flex h-screen flex-col py-8 px-10 w-full items-end">
         <div className="w-full flex justify-end">
         </div>
@@ -21,7 +21,7 @@ function App() {
           <span className="text-white font-semibold text-xl max-w-[550px]">
             Siga o <a href="https://www.instagram.com/jornadas.dev/" target="_blank" className="text-[#E8CF46] underline">@jornadas.dev</a> no instagram e junte-se à nossa missão de explorar o universo da tecnologia.
           </span>
-            <span className="text-zinc-100">
+            <span className="text-zinc-100 pb-8">
             © 2024 jornadas.dev - Todos os direitos reservados
             </span>
         </div>
